@@ -13,6 +13,6 @@ export class ImagenService {
     datos.append('nombre', nombre);
     datos.append('imagen', imagen);
 
-    return this.http.post('http://127.0.0.1:8000/api/persona', datos);
+    return this.http.post('http://18.221.160.46/api/persona', datos);
   }
 }
